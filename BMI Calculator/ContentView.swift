@@ -45,7 +45,7 @@ struct ContentView: View {
                     Divider()
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 1))
                         .padding(.horizontal)
-                        .shadow(color: .blue, radius: 20, x: 0, y: 0)
+                        
 
                     HStack {
                         Image(systemName: "heart.circle")
@@ -61,7 +61,6 @@ struct ContentView: View {
                     Divider()
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 1))
                         .padding(.horizontal)
-                        .shadow(color: .blue, radius: 20, x: 0, y: 0)
                 }
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
 
